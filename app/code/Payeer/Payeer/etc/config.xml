@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <payeer>
+                <model>Payeer\Payeer\Model\Payeer</model>
+                <group>offline</group>
+                <active>1</active>
+                <title>Payeer</title>
+                <merchant_url>https://payeer.com/merchant/</merchant_url>
+				<secret_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+            </payeer>
+        </payment>
+    </default>
+</config>
