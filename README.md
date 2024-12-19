@@ -1,8 +1,8 @@
 Magento 2.3.0
 ======
-Модуль оплаты Payeer
+Payment module Payeer
 
-Для установки модуля скачайте все файлы.
-Далее следуйте прилагаемой инструкции
+To install the module, download and unzip the archive.
+Then follow the attached instructions.
 
-Поддержка версии CMS Magento 2.3.0
+Support for CMS Magento 2.3.0
